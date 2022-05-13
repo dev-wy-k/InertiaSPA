@@ -1,0 +1,67 @@
+.main {
+    background-image: url('/images/bg1.jpg');
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+}
+
+.navbar {
+    /* background-image: radial-gradient(circle at center center, rgb(71, 71, 71), rgb(8, 8, 8)) !important; */
+    background-color: #414833 !important;
+}
+
+.page-item .disabled {
+    background-color: bisque !important;
+}
+
+.bg-primary {
+    background-color: #b6ad90 !important;
+}
+
+.bg-dark {
+    background-color: #a4ac86 !important;
+}
+
+.dropdown-menu {
+    background-color: #c2c5aa !important;
+}
+
+.dropdown-menu:hover {
+    background-color: #c2c5aa90 !important;
+}
+
+.card,
+.card-header {
+    border-top-right-radius: 30px !important;
+    border-top-left-radius: 30px !important;
+}
+
+.card-body {
+    background-color: #c2c5aa60 !important;
+}
+
+.list-group-item {
+    background-color: #c2c5aa60 !important;
+}
+
+.page-item.active .page-link {
+    background-color: #b6ad90 !important;
+    color: black !important;
+}
+
+.text-cof {
+    color: #b6ad90 !important;
+}
+
+.btn-black {
+    background-color: #656d4a !important;
+}
+
+.btn-primary {
+    background-color: #b6ad90 !important;
+}
