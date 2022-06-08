@@ -2708,7 +2708,6 @@ __webpack_require__.r(__webpack_exports__);
     like: function like(id, index) {
       var _this = this;
 
-      alert(id);
       axios__WEBPACK_IMPORTED_MODULE_4___default().get("/question/like/".concat(id)).then(function (res) {
         if (res.data.success == true) {
           _this.questions.data[index].is_like = "true";

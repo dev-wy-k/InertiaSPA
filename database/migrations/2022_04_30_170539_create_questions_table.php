@@ -17,8 +17,8 @@ class CreateQuestionsTable extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id');
             $table->string('slug');
-            $table->string('title');
-            $table->string('description');
+            $table->text('title');
+            $table->longText('description');
             $table->enum('is_fixed', ['true', 'false'])->default('false');
             $table->timestamps();
 

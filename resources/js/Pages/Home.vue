@@ -104,7 +104,6 @@ export default {
   },
   methods: {
     like(id, index) {
-      alert(id)
       axios.get(`/question/like/${id}`).then((res) => {
         if (res.data.success == true) {
           this.questions.data[index].is_like = "true";
